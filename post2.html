@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#">Simpl<sub>i</sub>Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog Posts</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Reviews</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    <!-- main Section -->
+    <section class="hero py-4">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-lg-8 shadow content py-3 blog_left__div ">
+                    <!-- Main Content -->
+                    <figure class="right_side_img mb-5">
+                        <img src="images/post2.jpg" class="img-fluid w-100 shadow  " alt="">
+                    </figure>
+
+                    <div class="row ">
+
+                        <div class="col-sm-10 pb-4 ">
+                            <h1>Creating an Introduction</h1>
+                        </div>
+                    </div>
+                    <div class="p-content px-3">
+                        <p><strong>Choose your topic.</strong> This can be as general or specific as you’d like. But
+                            keep in mind, more specific blog posts are usually the most effective.</p>
+                        <ul>
+                            <li>If you are writing a personal blog about fashion, you may want to consider a fashion
+                                issue or problem you are interested in discussing. This could be the lack of nice
+                                clothing for plus size women, the neon fall trend that won’t go away, or even your
+                                struggle with finding the right pair of jeans.</li>
+                            <li>
+                                If you are writing a business blog, you may want to focus on a particular aspect of your
+                                business that might be interesting to your customers. For example, if you run a retail
+                                camera store, you may want to talk about the latest camera releases, or a more specific
+                                topic like your favorite digital camera on the market.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-content px-3">
+                        <p><strong>Come up with a title </strong>If you are stuck on a title, try to narrow down the
+                            title so it is specific to the blog post.</p>
+                        <ul>
+                            <li>
+                                Don’t be afraid to have a bold title. The title is the first thing the reader will see
+                                on your blog, so make it attention grabbing.
+                            </li>
+                            <li>
+                                It may be better to have a simple title, rather than a complicated or confusing one.
+                                Though you may want to be snappy or witty, often titles that are clear and easy to read
+                                are the most effective.
+                            </li>
+                            <li>
+                                For example, a blog post on your food blog about a chocolate cake recipe could have the
+                                title like: “My Amazing Salted Chocolate Cake Recipe”.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p-content px-3">
+
+                        <p><strong>
+                                Write a captivating opening.</strong> This is the hook that will get people to start
+                            reading. In fact, its proven that if you get people to read the first 3-4 sentences, they
+                            are more likely to read the rest of the post.[8] Writing a grabbing opening sentence and
+                            paragraph can be difficult, so try these techniques:</p>
+                        <ul>
+                            <li>
+                                Identify a need. Think about what problems or issues the reader would want to solve.
+                                Create an opening line that promises to answer this need. For example, on your food
+                                blog, you identify a need for your reader to learn how to properly ice a cake. Your
+                                opening sentences could be: “We’ve all been there. Your child’s birthday is set to start
+                                in an hour, but you can’t figure out how to ice the triple layer chocolate cake.”
+                            </li>
+                            <li>
+                                Ask an intriguing question. Use a question that leaves little room for the reader to respond with anything but “yes”. Make the question seem interesting enough to the reader. For example, on your camera blog, you could begin with: “Looking for a digital camera that produces top quality images, but doesn’t weigh a ton? Ready to switch to a point and shoot, but shopping on a budget?”
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-between left_div_btns">
+                        <div>
+                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                        </div>
+                        <div>
+                            <button class="left_div__reply" onclick="reply('reply3')">Replies <badge
+                                    class=" text-dark p-2"><strong>2</strong></badge></button>
+                        </div>
+                    </div>
+                    
+
+                  
+
+                    <div class="replies" id="reply3">
+                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                            <div class=" reply_img mx-2 align-self-center col-sm-2">
+                                <img src="images/p1.jpg" class=" img-fluid rounded-circle " />
+                            </div>
+                            <div class="reply_text__left col-sm-10">
+                                <p class="blog_title "> <span class="font-weight-bold"> Jill, </span> Aug 12, 2020, 7:20 PM </p>
+                                <p>You are too good Man!</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                            <div class=" reply_img mx-2 align-self-center col-sm-2">
+                                <img src="images/p3.jpg" class=" img-fluid rounded-circle " />
+                            </div>
+                            <div class="reply_text__left col-sm-10">
+                                <p class="blog_title "> <span class="font-weight-bold"> Mary, </span> Aug 12, 2020, 7:20 PM </p>
+                                <p>Great Job! Looking Forward to keep reading your posts.</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                </div>
+                <div class="col-lg-1">
+                    &nbsp;
+                </div>
+                <!-- Right Part -->
+                <div class="col-lg-3  justify-content-end  ">
+                    <div class="row gy-5 left_div__blog">
+                        <!-- about me -->
+                        <div class="col-12  about_me_div shadow">
+
+                            <img src="images/person2.jpg" alt="" class="image-fluid text-center align-self-center rounded-circle">
+                            <div class="container py-3">
+                                <p>John Doe</p>
+                                <p>Quick Bio : Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                    quasi cum autem, minus earum accusamus consequuntur ipsam quidem vel natus.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- popular post -->
+                        <div class=" popular_post ">
+                            <div class="text-center">
+                                <h2>Popular Blogs By: </h2>
+                            </div>
+                            <div class="right_sub__div shadow p-4">
+                                <div class="d-flex    py-2">
+                                    <div class=" ">
+                                        <img src="images/bill.png" class="image-fluid rounded-circle w-75" alt="">
+                                    </div>
+                                    <div >
+                                        &nbsp;
+                                    </div>
+                                    <div class="align-self-center">
+                                        <a href="https://www.gatesnotes.com/" target="_blank" class="blogLink">
+                                            <h3>Bill Gates</h3>
+                                            <p class="text-capitalize">CEO Microsoft</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex py-2">
+                                    <div >
+                                        <img src="images/jeff.png" class="image-fluid rounded-circle w-75" alt="">
+                                    </div>
+                                    <div >
+                                        &nbsp;
+                                    </div>
+                                    <div class=" align-self-center">
+                                        <a href="https://www.instagram.com/jeffbezos/?hl=en" target="_blank" class="blogLink">
+                                            <h3>Jeff Bezos</h3>
+                                            <p class="text-capitalize">Amazon</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex py-2">
+                                    <div >
+                                        <img src="images/steve.png" class="image-fluid rounded-circle w-75" alt="">
+                                    </div>
+                                    <div >
+                                        &nbsp;
+                                    </div>
+                                    <div class=" align-self-center">
+                                        <a href="https://allaboutstevejobs.com/blog/" target="_blank" class="blogLink">
+                                            <h3>Steve Jobs</h3>
+                                            <p class="text-capitalize">Apple</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- tags -->
+                        <div class=" right_div_post">
+                            <div class="right_div__title py-2 ">
+                                <h2>Tags</h2>
+                            </div>
+                            <div class="tags_main p-4 align-items-center w-100 ">
+                                <a href="#" class="badge shadow text-capitalize"> html </a>
+                                <a href="#" class="badge shadow text-capitalize"> css </a>
+                                <a href="#" class="badge shadow text-capitalize"> js </a>
+                                <a href="#" class="badge shadow text-capitalize"> react </a>
+                                <a href="#" class="badge shadow text-capitalize"> vue </a>
+                                <a href="#" class="badge shadow text-capitalize"> php </a>
+                                <a href="#" class="badge shadow text-capitalize"> python </a>
+                                <a href="#" class="badge shadow text-capitalize"> kotlin </a>
+                                <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                                <a href="#" class="badge shadow text-capitalize"> java </a>
+                            </div>
+                        </div>
+
+
+                        <!-- Follow Me -->
+                        <div class=" right_div_post">
+                            <div class="right_div__title py-2  ">
+                                <h2>Follow Me</h2>
+                            </div>
+                            <div class="right_sub__div d-flex justify-content-around">
+                                <a href="#"> <i class="fab fa-2x fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fab fa-2x fa fa-instagram" aria-hidden="true"></i></a>
+
+                                <a href="#"> <i class="fab fa-2x fa fa-github" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fab fa-2x fa fa-youtube-play" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fab fa-2x fa fa-linkedin" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="" class="footer-logo">Simpl<sub>i</sub>blog</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente totam inventore commodi
+                        reprehenderit expedita atque omnis deleniti quam facilis dolor.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>
+                        Useful Links
+                    </h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Newsletter</h4>
+                    <form class="d-flex">
+                        <input class="form-control " type="search" placeholder="Wanna recieve emails?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Subscribe </button>
+                    </form>
+                </div>
+            </div>
+            <div class="w-100 text-center credits">
+                <p>&reg; Shruthi Puthran | &copy; 2021 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
